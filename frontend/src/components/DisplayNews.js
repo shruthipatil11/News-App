@@ -6,7 +6,7 @@ const DisplayCard = ({news,index}) => (
     <div className="card" key={index}>
     <div className="content">
       <h3>
-        <a href={news.url} target="_blank" rel="noopener noreferrer">
+        <a href={news.url} target="_blank" >
           {news.title}
         </a>
       </h3>

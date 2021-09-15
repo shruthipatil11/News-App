@@ -16,12 +16,6 @@ newsapi.v2.everything({
 }).then(response => {
   console.log(response);
   res.send(response);
-  /*
-    {
-      status: "ok",
-      articles: [...]
-    }
-  */
 });
 });
 
